@@ -18,7 +18,7 @@ body {
 
 .name {
     font-size: 40px;
-    border-bottom: 3px solid FFF400;
+    border-bottom: 3px solid #00B28D;
 }
 
 /* .name:hover {
@@ -111,6 +111,7 @@ footer {
 
 .copyright {
     text-align: center;
+    color: #00B28D;
     margin: 20px auto;
     font-weight: 200;
     font-size: 13px;
