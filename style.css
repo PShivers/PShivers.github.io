@@ -80,6 +80,8 @@ article {
 }
 
 img {
+    border: 2px solid #00B28D;
+    border-radius: 75%;
     float: left;
     max-width: 40%;
     max-height: 40%;
