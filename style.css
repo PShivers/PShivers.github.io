@@ -15,6 +15,7 @@ body {
     background: #E86638;
     color: #fffdd0;
     width: 100%;
+    border-bottom: 3px solid #00B28D;
 }
 
 .name {
@@ -99,6 +100,7 @@ p {
 }
 
 footer {
+    border-top: 3px solid #00B28D;
     position: absolute;
     bottom:0;
     width: 100%;
