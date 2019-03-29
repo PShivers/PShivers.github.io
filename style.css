@@ -19,6 +19,7 @@ body {
 }
 
 .name {
+    text-shadow: 1px 1px 8px #00B28D;
     font-size: 40px;
     border-bottom: 3px solid #00B28D;
 }
@@ -28,6 +29,7 @@ body {
 } */
 
 nav {
+    text-shadow: 1px 1px 8px #00B28D;
     display: flex;
     flex-direction: row;
 }
@@ -110,6 +112,7 @@ footer {
     background: #E86638;
     color: #fffdd0;
 }
+
 .contactinfo {
     text-align: center;
     margin: 20px auto;
@@ -122,4 +125,5 @@ footer {
     margin: 20px auto;
     font-weight: 400;
     font-size: 13px;
+    text-shadow: 1px 1px 8px #fffdd0;
 }
