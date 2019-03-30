@@ -94,8 +94,9 @@ img {
 }
 
 p { 
-  
+    text-align: justify;
 }
+
 .aside {
     font-weight: 200;
     font-style: italic;
