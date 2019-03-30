@@ -127,7 +127,15 @@ footer {
     text-align: center;
     margin: 20px auto;
     font-size: 17px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
+
+.vl {
+    border-left: 2px solid #00B28D;
+    height: 3rem;
+  }
 
 .copyright {
     text-align: center;
