@@ -1,3 +1,13 @@
+@font-face {
+	font-family:"Futurama Alien Alphabet One";
+	src:url("fr-fal1.eot?") format("eot"),
+	url("fr-fal1.woff") format("woff"),
+	url("fr-fal1.ttf") format("truetype"),
+	url("fr-fal1.svg#") format("svg");
+	font-weight:normal;
+	font-style:normal;
+}
+
 body {
     font-family: 'Spectral', serif;
     display: flex;
@@ -33,10 +43,6 @@ body {
     border-bottom: 3px solid #00B28D;
 }
 
-/* .name:hover {
-    color: FFF400;
-} */
-
 nav {
     text-shadow: 1px 1px 8px #00B28D;
     display: flex;
@@ -57,7 +63,6 @@ a {
 a:hover {
     text-decoration-line: underline;
     text-decoration-color: #00B28D;
-    textd
 }
 
 
@@ -69,13 +74,6 @@ main {
     margin: 108px 0;
 }
 
-
-hr {
-    display: block;
-    border-width: 1px;
-    size: 100%;
- }
-
 .container {
     display: flex;
     flex-direction: row;
@@ -83,12 +81,24 @@ hr {
     align-items: stretch;
 }
 
-aside {
+.sidebar {
+    font-family: "Futurama Alien Alphabet One";
     font-weight: 200;
     font-style: italic;
     width: 20%;
+    color: #fffdd0;
+    margin: auto 10px;
 }
 
+.sidebar:hover {
+    color: #fffdd0;
+    text-shadow: 1px 1px 8px #00B28D;
+    
+}
+
+.rightsb {
+    float: right;
+}
 article {
     width: 60%;
 }
@@ -99,18 +109,13 @@ img {
     float: left;
     max-width: 40%;
     max-height: 40%;
+    min-width: ;
+    min-height: ;
     margin: 23px 10px 0 0;
 }
 
 p { 
     text-align: justify;
-}
-
-.aside {
-    font-weight: 200;
-    font-style: italic;
-    width: 20%;
-    font-weight: 300;
 }
 
 footer {
@@ -140,8 +145,8 @@ footer {
 .copyright {
     text-align: center;
     color: #00B28D;
-    margin: 20px auto;
+    margin: -10px auto;
     font-weight: 400;
-    font-size: 13px;
+    font-size: 16px;
     text-shadow: 1px 1px 8px #fffdd0;
 }
