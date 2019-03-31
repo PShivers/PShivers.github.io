@@ -9,16 +9,18 @@
 }
 
 body {
-    font-family: 'Spectral', serif;
-    display: flex;
-    flex-direction: column;
+    font-family: 'Spectral', serif; 
     align-items: center;
-    background: #fffdd0;
+    background: #E86638;
+    height: 100%;
 }
 
 #page-container {
+    background: #fffdd0;
     position: relative;
     min-height: 100vh;
+    display:flex;
+    flex-direction: column;
 }
 
 #content-wrap {
