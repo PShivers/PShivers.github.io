@@ -139,6 +139,7 @@ p {
 .vl {
     border-left: 2px solid #00B28D;
     height: 1rem;
+    margin: 1rem;
   }
 
 /* .copyright {
