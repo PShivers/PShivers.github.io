@@ -8,28 +8,27 @@
 	font-style:normal;
 }
 
+html {
+    height:100%;
+    margin: 0;
+}
+
 body {
     font-family: 'Spectral', serif; 
     align-items: center;
     background: #E86638;
     height: 100%;
+    margin:0;
 }
 
-#page-container {
-    background: #fffdd0;
-    position: relative;
-    min-height: 100vh;
+.wrapper {
+    padding-bottom: 2.5rem;
+    height:100%;
     display:flex;
     flex-direction: column;
 }
 
-#content-wrap {
-    padding-bottom: 2.5rem;
-}
-
-.topbar {
-    position: absolute;
-    top: 0;
+.header {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -72,15 +71,14 @@ a:link {
     color: black;
 }
 
-main {
-    margin: 108px 0;
-}
-
-.container {
+.content {
+    background: #fffdd0;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: stretch;
+    overflow:auto;
+    flex: 1;
 }
 
 .sidebar {
@@ -120,19 +118,18 @@ p {
     text-align: justify;
 }
 
-footer {
+.footer {
     border-top: 3px solid #00B28D;
-    position: absolute;
-    bottom:0;
     width: 100%;
-    height: 108px;
+    height: 5%;
+    /* height: 108px; */
     background: #E86638;
     color: #fffdd0;
 }
 
 .contactinfo {
     text-align: center;
-    margin: 20px auto;
+    margin: auto;
     font-size: 17px;
     display: flex;
     flex-direction: row;
@@ -141,14 +138,14 @@ footer {
 
 .vl {
     border-left: 2px solid #00B28D;
-    height: 3rem;
+    height: 1rem;
   }
 
-.copyright {
+/* .copyright {
     text-align: center;
     color: #00B28D;
     margin: -10px auto;
     font-weight: 400;
     font-size: 16px;
     text-shadow: 1px 1px 8px #fffdd0;
-}
+} */
