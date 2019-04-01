@@ -4,13 +4,14 @@
     justify-content: space-between;
 }
 
-.name {
-border-bottom: none;
-}
-
 nav {
     display: flex;
     flex-direction: column;
+}
+
+.name {
+    border-bottom: none;
+    margin: 0 0 0 2rem;
 }
 
 .navlink {
