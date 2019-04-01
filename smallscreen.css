@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    flex-direction: row;
+}
+
+.name {
+    
+}
+
+article {
+    margin: 2rem;
+}
+
+.sidebar {
+    display: none;
+}
+
+.rightsb {
+    display: none;
+}
+
+.footer {
+  display: none;
+}
+}
