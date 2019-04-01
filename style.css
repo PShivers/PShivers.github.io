@@ -8,11 +8,21 @@
 	font-style:normal;
 }
 
-@media only screen and (min-width) {
-
-}
-
 @media only screen and (max-width: 600px) {
+    
+    article {
+        margin: 2rem;
+    }
+    
+
+    .sidebar {
+        display: none;
+    }
+
+    .rightsb {
+        display: none;
+    }
+
     .footer {
       display: none;
     }
@@ -91,6 +101,7 @@ a:link {
     overflow:auto;
     flex: 1;
     height: 80%;
+    width: 100%;
 }
 
 .sidebar {
@@ -128,14 +139,13 @@ p {
 }
 
 article {
-    width: 60%;
+    width: 100%;
 }
 
 .footer {
     border-top: 3px solid #00B28D;
     width: 100%;
     height: 10%;
-    /* height: 108px; */
     background: #E86638;
     color: #fffdd0;
 }
