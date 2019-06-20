@@ -4,10 +4,16 @@ const app = express();
 app.use(express.urlencoded({ extended: true }));
 
 app.get('/', (req, res) => {
-  res.send('hello world');
+  res.render();
 });
 
-const PORT = process.env.PORT || 3000;
+app.use(express.static(__dirname + '/client/build/'));
+
+app.get('/', (req,res) => {
+    res.sendFile(__dirname + '/client/build/index.html')
+  })
+
+const PORT = process.env.PORT || 3001;
 
 app.listen(PORT, function() {
   console.log(
