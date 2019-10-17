@@ -41,7 +41,7 @@ body {
   margin: 0 0 0 2%;
 }
 
-.navlink{
+.navlink {
   position: relative;
 }
 
@@ -74,7 +74,6 @@ a:hover {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin: 9% 0 0 0;
 }
 
 .projects {
@@ -115,7 +114,37 @@ a:hover {
 }
 
 #portrait {
-  padding: 2% 0;
+  /* padding: 2% 0; */
   width: 15%;
   height: 15%;
+  border: 5px double white;
+  border-radius: 60%;
+}
+
+.carousel-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.bd-example {
+  width: 75%;
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.flex {
+  display: flex;
+}
+
+.centered {
+  justify-content: center;
+  align-items: center;
 }
